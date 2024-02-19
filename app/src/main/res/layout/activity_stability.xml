@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:dividerPadding="16dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/java_airbag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启Java 层安全气囊" />
+
+    <Button
+        android:id="@+id/native_airbag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启Native 层安全气囊" />
+
+    <Button
+        android:id="@+id/btn_java_crash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="触发 Java Crash" />
+
+    <Button
+        android:id="@+id/btn_child_thread_java_crash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="触发子线程 Java Crash" />
+
+    <Button
+        android:id="@+id/btn_native_crash1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="触发 Native Crash1（已保护）" />
+
+    <Button
+        android:id="@+id/btn_native_crash2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="触发 Native Crash2（未保护）" />
+
+
+</LinearLayout>

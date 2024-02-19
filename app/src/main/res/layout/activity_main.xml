@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:dividerPadding="16dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_thread_hook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线程 Hook" />
+
+    <Button
+        android:id="@+id/btn_memory_hook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内存 Hook" />
+
+    <Button
+        android:id="@+id/btn_stability_optimization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="安全气囊" />
+
+    <Button
+        android:id="@+id/btn_jank_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="卡顿页面" />
+
+    <Button
+        android:id="@+id/btn_trigger_anr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="触发 ANr" />
+
+</LinearLayout>
